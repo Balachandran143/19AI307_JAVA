@@ -12,11 +12,11 @@ The values of variables 'a' and 'b' are 6 and 8 respectively, write a Java progr
 
 4. To swap without a third variable:
 
-a = a + b
+   a = a + b
 
-b = a - b
+   b = a - b
 
-a = a - b
+   a = a - b
 
 5. Print the values of a and b after swapping
 
@@ -50,7 +50,7 @@ public class Demo
 ```
 
 ## OUTPUT:
-After swapping a= 8 b=6
+After swapping a = 8  b = 6
 
 
 
