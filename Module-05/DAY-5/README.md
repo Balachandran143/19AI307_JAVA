@@ -26,7 +26,7 @@ To implement a java program for area of triangle with the help of getter and set
  ```
 /*
 Program to implement a HAS-A RelationShip
-Developed by:BALACHANDRAN
+Developed by:BALACHANDRAN S
 RegisterNumber: 212222100008
 */
 ```
