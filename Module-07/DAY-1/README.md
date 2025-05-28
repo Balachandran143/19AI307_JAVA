@@ -24,23 +24,39 @@
  ```
 /*
 Program to implement a Exception Handling-Run Time Exception using Java
-Developed by: 
-RegisterNumber:  
+Developed by:BALACHANDRAN S
+RegisterNumber: 212222100008 
 */
 ```
 
 ## Sourcecode.java:
 
-
-
+```
+import java.util.Scanner;
+public class HelloWorld{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        try{
+            int a=sc.nextInt();
+            int b=sc.nextInt();
+            int c=a/b;
+            System.out.println("Result: "+c);
+        }
+        catch(ArithmeticException e){
+            System.out.println("Arithmetic Exception: Number should not divide by zero");
+        }
+    }
+}
+```
 
 
 
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/e6cf41f7-007d-439c-a719-ecd1891cdb31)
+
 
 
 ## RESULT:
 Thus the Java Program for handling Arithmetic Exception (division by zero exception) using Exception Handling Mechanism was executed successfully.
-
